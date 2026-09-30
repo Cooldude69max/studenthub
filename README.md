@@ -18,7 +18,7 @@ A polished responsive student dashboard built using only HTML5 and CSS3.
 Open`index.html`in a browser...
 
 ### Resume entry
-# HTML5, CSS3**
+# HTML5, CSS3
 Designed and developed a responsive student dashboard featuring academic statistics, course progress,attendance,timetable,assignments,examinations,and results using semantic HTML5, CSS Grid,Flexbox,and responsive design.
 
 ### Next upgrade
