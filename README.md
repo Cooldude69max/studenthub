@@ -22,14 +22,9 @@ A responsive student dashboard built using **HTML5 and CSS3**.
 * Flexbox
 * Responsive Media Queries
 
-## 📂 Project Structure
+## 📸 Project Preview
 
-text
-StudentHub/
-├── index.html
-├── style.css
-└── README.md
-
+![StudentHub Dashboard](dashboard.png)
 
 ## 🎯 Purpose
 
