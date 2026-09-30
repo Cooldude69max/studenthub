@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudentHub | Student Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<aside class="sidebar">
+  <div class="brand"><span class="brand-mark">S</span><span>StudentHub</span></div>
+  <nav>
+    <a class="active" href="#overview">Overview</a>
+    <a href="#courses">Courses</a>
+    <a href="#attendance">Attendance</a>
+    <a href="#timetable">Timetable</a>
+    <a href="#assignments">Assignments</a>
+    <a href="#exams">Exams</a>
+    </nav>
+    <div class="sidebar-footer"><strong>BCA</strong><br>Session 2025–2028</div>
+</aside>
+
+        <main class="main">
+          <header class="topbar">
+              <div><p class="eyebrow">Student Portal</p><h1>Good morning, Ayush 👋</h1><p class="muted">Here’s your academic overview.</p></div>
+              <div class="profile"><div class="avatar">AR</div><div><strong>Ayush Raj</strong><small>BCA • 2nd Year</small></div></div>
+          </header>
+
+        <section id="overview" class="stats">
+              <article class="stat"><span>Overall Score</span><strong>74%</strong><small>Honours performance</small></article>
+              <article class="stat"><span>Attendance</span><strong>86%</strong><small>Above minimum requirement</small></article>
+              <article class="stat"><span>Semester</span><strong>02</strong><small>Current semester</small></article>
+              <article class="stat"><span>Credits</span><strong>24</strong><small>Completed this session</small></article>
+        </section>
+
+      <section class="grid">
+      <article id="courses" class="card">
+        <div class="card-head"><div><p class="eyebrow">Academic</p><h2>Current Courses</h2></div><span class="pill">5 Subjects</span></div>
+        <div class="course"><div class="course-icon blue">C</div><div><strong>Programming Logic & C</strong><small>Core Programming</small></div><span>82%</span></div>
+        <div class="course"><div class="course-icon purple">OS</div><div><strong>Operating Systems</strong><small>Core Computer Science</small></div><span>78%</span></div>
+        <div class="course"><div class="course-icon green">NW</div><div><strong>Computer Networking</strong><small>Technical Foundation</small></div><span>76%</span></div>
+        <div class="course"><div class="course-icon orange">WD</div><div><strong>Web Development</strong><small>HTML & CSS</small></div><span>88%</span></div>
+      </article>
+
+        <article id="attendance" class="card">
+        <div class="card-head"><div><p class="eyebrow">Attendance</p><h2>Subject Attendance</h2></div></div>
+        <div class="progress-row"><span>Web Development</span><strong>92%</strong></div><div class="bar"><i style="width:92%"></i></div>
+        <div class="progress-row"><span>Networking</span><strong>86%</strong></div><div class="bar"><i style="width:86%"></i></div>
+        <div class="progress-row"><span>Operating Systems</span><strong>84%</strong></div><div class="bar"><i style="width:84%"></i></div>
+        <div class="progress-row"><span>Programming</span><strong>82%</strong></div><div class="bar"><i style="width:82%"></i></div>
+        </article>
+
+       <article id="timetable" class="card wide">
+         <div class="card-head"><div><p class="eyebrow">Weekly Plan</p><h2>Class Timetable</h2></div></div>
+          <div class="table-wrap"><table><thead><tr><th>Day</th><th>09:00</th><th>11:00</th><th>14:00</th></tr></thead>
+      <tbody>
+            <tr><th>Monday</th><td>Networking</td><td>Web Dev</td><td>OS</td></tr>
+            <tr><th>Tuesday</th><td>Programming</td><td>Web Dev</td><td>Lab</td></tr>
+            <tr><th>Wednesday</th><td>OS</td><td>Networking</td><td>Programming</td></tr>
+            <tr><th>Thursday</th><td>Web Dev</td><td>Lab</td><td>Networking</td></tr>
+            <tr><th>Friday</th><td>Programming</td><td>OS</td><td>Web Dev</td></tr>
+            <tr><th>Saturday</th><td>Networking</td><td>Programming</td><td>—</td></tr>
+       </tbody></table></div>
+       </article>
+
+      <article id="assignments" class="card">
+        <div class="card-head"><div><p class="eyebrow">Tasks</p><h2>Assignments</h2></div></div>
+        <div class="task"><span class="status pending"></span><div><strong>CSS Responsive Layout</strong><small> Web Development </small></div><b>Pending</b></div>
+        <div class="task"><span class="status submitted"></span><div><strong>OSI Model Notes</strong><small> Networking </small></div><b>Done</b></div>
+        <div class="task"><span class="status pending"></span><div><strong>Process Scheduling</strong><small> Operating Systems </small></div><b>Pending</b></div>
+       </article>
+
+      <article id="exams" class="card">
+        <div class="card-head"><div><p class="eyebrow">Upcoming</p><h2>Examinations</h2></div></div>
+        <div class="exam"><div class="date"><strong>14</strong><small>OCT</small></div><div><strong>Computer Networking</strong><small> Room 204  10:00 AM</small></div></div>
+        <div class="exam"><div class="date"><strong>17</strong><small>OCT</small></div><div><strong>Operating Systems</strong><small> Room 108  10:00 AM</small></div></div>
+        <div class="exam"><div class="date"><strong>20</strong><small>OCT</small></div><div><strong>Web Development</strong><small> Lab 02 10:00 AM</small></div></div>
+     </article>
+
+     <article class="card">
+        <div class="card-head"><div><p class="eyebrow">Performance</p><h2>Recent Results</h2></div></div>
+        <div class="result-row"><span> Web Development</span><strong>88 / 100</strong></div><div class="bar"><i style="width:88%"></i></div>
+        <div class="result-row"><span> Programming</span><strong>82 / 100</strong></div><div class="bar"><i style="width:82%"></i></div>
+        <div class="result-row"><span> Networking</span><strong>76 / 100</strong></div><div class="bar"><i style="width:76%"></i></div>
+     </article>
+    </section>
+
+      <footer>HTML5 & CSS3 Project </footer>
+    </main>
+      </div>
+ </body>
+</html>
